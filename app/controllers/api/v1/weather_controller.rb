@@ -3,7 +3,7 @@ module Api
         class WeatherController < ApplicationController   
             def  show
                 @host = 'http://api.openweathermap.org/data/2.5/'       
-                @key = '59939e931d3f01aed97576c5cb011a33'
+                @key = 'YOUR-KEY'
                 
                 city = params[:city]
                 @weather_city = api_request_city_weather(@host, city, @key)
