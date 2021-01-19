@@ -16,4 +16,4 @@ Things you may want to cover:
 
 * How to run the test suite: bundle exec rspec ./spec/weather_spec.rb
 
-* How to run the Rails API: rails s -b 0.0.0.0 -p 3050
+* How to run the Rails API: rails s -b 0.0.0.0 -p 3082
